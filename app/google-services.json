@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355005516140",
+    "firebase_url": "https://hahtava-a6f71.firebaseio.com",
+    "project_id": "hahtava-a6f71",
+    "storage_bucket": "hahtava-a6f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355005516140:android:e485db748d1f34a43e8b49",
+        "android_client_info": {
+          "package_name": "com.example.comps.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355005516140-grmgtekdlhaoaef4nociql4op8fb3h6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBJFuM-mRQ8i3vjp287Nhd-5yepMRbaZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355005516140-grmgtekdlhaoaef4nociql4op8fb3h6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/login"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNote1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8054cce4"
+        android:gravity="center"
+        android:text="מתמטיקה"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNote2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#8054cce4"
+        android:text="בחר סוג משחקים:"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddGames"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:backgroundTint="#E61379C2"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="משחקי חיבור" />
+
+
+    <Button
+        android:id="@+id/btnSubGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:text="משחקי חיסור"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMulGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:text="משחקי כפל"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDivGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:text="משחקי חילוק"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#E61379C2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="חזרה לתפריט" />
+
+</LinearLayout>

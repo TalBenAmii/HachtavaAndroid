@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    tools:context="com.example.comps.myapplication.LoginScreen">
+
+    <TextView
+        android:id="@+id/tvNote1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8054cce4"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="true"
+        android:text="מדריך למשתמש"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <ImageView
+            android:id="@+id/ivUserGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Specs"
+            android:scrollbars="vertical"
+            android:src="@drawable/pic1" />
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/login"
+    android:weightSum="8"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8054cce4"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibSpeech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/micicon" />
+
+        <EditText
+            android:id="@+id/etWord"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#8054cce4"
+            android:ems="10"
+            android:hint="הכנס מילה"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddWord"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="הוסף מילה" />
+
+    <Button
+        android:id="@+id/btnOpenOrLoadWordList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:text="שמירת הרשימה/פתיחת רשימה שמורה"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#8054cce4"
+        android:text="תלחץ על מילה שברצונך למחוק"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvWords"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:background="#8054cce4"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPractice"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E61379C2"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="התחל לתרגל" />
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:backgroundTint="#E61379C2"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="חזרה לתפריט" />
+</LinearLayout>
